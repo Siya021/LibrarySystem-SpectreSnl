@@ -21,7 +21,6 @@ namespace Library
 
         public override string GetDetails()
         {
-            // Use backing fields explicitly to resolve ambiguity
             return $"{base.GetDetails()}, Director: {_director}, Duration: {_duration}";
         }
     }
